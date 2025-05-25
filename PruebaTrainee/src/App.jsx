@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import './App.css'
+import './app.css'
 // se soluciono el problema de el nombre del app a la hora de hacer build
 import { Getfact } from './services/serviceFact'
 
