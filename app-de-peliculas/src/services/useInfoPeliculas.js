@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 
-const API_SEARCH_ENDPOINT = 'http://www.omdbapi.com/?apikey=5c2ace20&s='
-const API_DETAIL_ENDPOINT = 'http://www.omdbapi.com/?apikey=5c2ace20&i='
+const API_SEARCH_ENDPOINT = 'https://www.omdbapi.com/?apikey=5c2ace20&s='
+const API_DETAIL_ENDPOINT = 'https://www.omdbapi.com/?apikey=5c2ace20&i='
 
 const useInfoPeliculas = (busqueda) => {
   const [peliculas, setPeliculas] = useState([])
