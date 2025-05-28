@@ -13,7 +13,7 @@ function Pelicula (props) {
       </div>
       <div className='movie-content'>
         <div className='movie-poster'>
-          <img src={props.Poster ? props.Poster : 'https://m.media-amazon.com/images/I/61s8vyZLSzL._AC_UF894,1000_QL80_.jpg'} alt={`Poster de ${props.Title}`} />
+          <img src={props.Poster !== 'N/A' ? props.Poster : 'https://m.media-amazon.com/images/I/61s8vyZLSzL._AC_UF894,1000_QL80_.jpg'} alt={`Poster de ${props.Title}`} />
         </div>
         <div className='movie-details'>
           <p className='movie-plot'>{props.Plot}</p>
