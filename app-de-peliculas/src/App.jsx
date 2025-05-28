@@ -1,5 +1,5 @@
 import './App.css'
-import Pelicula from './components/pelicula.jsx'
+import Pelicula from './components/PeliculaComponent.jsx'
 import useInfoPeliculas from './services/useInfoPeliculas.js'
 import { useState } from 'react'
 
